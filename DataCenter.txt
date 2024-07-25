@@ -1,8 +1,4 @@
-!GROUP 3
-!-Shandee Estrellado
-!-Manoj Karki
-!-Mohit Devkota
-!-David Escobar Sarmiento
+
 
 !July 12, 2024
 

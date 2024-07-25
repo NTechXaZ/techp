@@ -1,12 +1,4 @@
-!GROUP 3
-!-Shandee Estrellado
-!-Manoj Karki
-!-Mohit Devkota
-!-David Escobar Sarmiento
 
-!July 12, 2024
-
-!INFO5152 Technical Projects - Phase 2 Task 3
 !Acc-Floor3
 !
 ! Last configuration change at 23:23:01 UTC Thu Jul 11 2024

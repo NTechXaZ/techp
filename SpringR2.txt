@@ -46,10 +46,6 @@ multilink bundle-name authenticated
 !
 !
 !
-archive
- path tftp://10.150.0.16/SpringR2
- write-memory
- time-period 10080
 !
 redundancy
 !
@@ -132,9 +128,6 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip nat pool ACCESS 192.168.255.63 192.168.255.63 netmask 255.255.255.0
-ip nat inside source list 1 pool ACCESS overload
-ip route 0.0.0.0 0.0.0.0 192.168.255.1
 !
 logging trap debugging
 logging origin-id hostname
@@ -143,8 +136,6 @@ logging host 10.150.0.16
 ipv6 ioam timestamp
 !
 !
-access-list 1 permit 10.150.0.0 0.0.0.255
-access-list 1 deny   any
 !
 control-plane
 !
